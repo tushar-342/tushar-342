@@ -1,17 +1,30 @@
+import java.util.Arrays;
+
 class Solution {
+
     public String longestCommonPrefix(String[] strs) {
+
         Arrays.sort(strs);
-        String str1 = strs[0];
-        String str2 = strs[strs.length-1];
+
+        String strs1 = strs[0];
+
+        String strs2 = strs[strs.length - 1];
+
         int index = 0;
-        while(index < str1.length() && index < str2.length()){
-            if(str1.charAt(index) == str2.charAt(index)){
+
+        while(index < strs1.length() && index < strs2.length()){
+
+            if(strs1.charAt(index) == strs2.charAt(index)){
+
                 index++;
+
             }else{
+
                 break;
+
             }
         }
-        return index == 0 ? "" : str1.substring(0,index);
+
+        return index == 0 ? "" : strs1.substring(0, index);
     }
 }
-
