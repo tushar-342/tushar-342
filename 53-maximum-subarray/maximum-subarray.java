@@ -6,9 +6,9 @@ class Solution {
         for(int i=1; i<n; i++){
             int v1 = bestEnding + nums[i];
             int v2 = nums[i];
-            bestEnding = Math.max(v1, v2);
+            bestEnding = Math.max(v1,v2);
             ans = Math.max(ans, bestEnding);
         }
-      return ans;
+        return ans;
     }
 }
