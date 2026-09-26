@@ -1,16 +1,16 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
         int n = nums.length;
-        int officer = 0, res = 1, cm = 1;
-        while(cm < n){
-            if(nums[cm] == nums[cm-1]){
-                cm++;
+        int cm = 0, officier = 1, res = 1;
+        while(officier < n){
+            if(nums[officier] == nums[officier - 1]){
+                officier++;
                 continue;
             }
-            nums[officer + 1] = nums[cm];
-            officer++;
+            nums[cm + 1] = nums[officier];
+            cm++;
+            officier++;
             res++;
-            cm++; 
         }
         return res;
     }
