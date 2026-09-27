@@ -7,9 +7,9 @@ class Solution {
             count[t.charAt(i) - 'a']--;
         }
         for(int i=0; i<count.length; i++){
-            if(count[i] != 0){
-                return false;
-            }
+           if(count[i] != 0){
+            return false;
+        }
         }
         return true;
     }
