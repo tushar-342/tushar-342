@@ -2,7 +2,7 @@ class Solution {
     public int totalFruit(int[] fruits) {
 
         int low = 0;
-        int maxLeng = 0;
+        int maxLeng = Integer.MIN_VALUE;
 
         HashMap<Integer, Integer> map = new HashMap<>();
 
