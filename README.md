@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning **Spring Boot, Data Structure**
 
-- 👨‍💻 All of my projects are available at [https://frontedportfolio2109.netlify.app/](https://tushar-portfolio1234.netlify.app/#portfolio)
+- 👨‍💻 All of my projects are available at [https://frontedportfolio2109.netlify.app/](https://tushar01-portfolio1234.netlify.app/#portfolio)
 
 - 💬 Ask me about **react, tailwind, sql**
 
