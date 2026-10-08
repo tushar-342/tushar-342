@@ -6,11 +6,12 @@ class Solution {
             if(reach < i){
                 return false;
             }
-             reach = Math.max(reach, nums[i]+i);
-        if(reach >= n-1){
-            return true;
-        }
+            reach = Math.max(reach, nums[i]+i);
+            if(reach >= n-1){
+                return true;
+            }
         }
         return true;
+        
     }
 }
